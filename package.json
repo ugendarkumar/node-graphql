@@ -1,0 +1,38 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "description": "node express graphql service",
+  "main": "serve.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon --exec babel-node --presets env,stage-2 src/serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugendarkumar/node-graphql.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "graphql"
+  ],
+  "author": "ugi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugendarkumar/node-graphql/issues"
+  },
+  "homepage": "https://github.com/ugendarkumar/node-graphql#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "node-fetch": "^2.2.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.4"
+  }
+}
