@@ -32,8 +32,3 @@ startPort();
 
 
 
-
-
-
-//key: AMstopyIzJpTKO0pGwyA
-//secret: N4c8EX55RoGiufc6n302AI178o0Cv2MQmwGfNqT9D2s
